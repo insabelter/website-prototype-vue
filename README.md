@@ -1,40 +1,25 @@
-# website-prototype-vue
+# Vue.js test website
 
-This template should help get you started developing with Vue 3 in Vite.
+This project is part of my bachelor thesis with the topic of defining the best suited web technology for implementing a company intern component library as part of a design system. In order to do so, three component library prototypes are implemented along with test websites to use the implemented components. 
 
-## Recommended IDE Setup
+Here is an overview of the software parts of this bachelor thesis:
+![Prototypes_English](https://user-images.githubusercontent.com/54104208/185070168-6168f409-8279-4287-a2ad-0d13eb6c5dc5.png)
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+This project represents the **Vue.js test website** to test importing the Vue.js component library prototype to another project.
 
-## Type Support for `.vue` Imports in TS
+The links to all the parts of the bachelor thesis are listed below.
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+## Serve website
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+Run `npm start` to start a dev server which serves the website locally, then navigate to `http://localhost:5173/`. The application will automatically reload if you change any of the source files.
 
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
+## Links to other repositories
+### Prototypes:
+- Angular: https://github.com/insabelter/component-bib-prototype-angular
+- Stencil: https://github.com/insabelter/component-bib-prototype-stencil
+- Vue.js: https://github.com/insabelter/component-bib-prototype-vue
+### Test Websites:
+- Based on Angular prototype: https://github.com/insabelter/website-prototype-angular
+- Based on Stencil prototype in "Vanilla TS" (using webpack): https://github.com/insabelter/website-prototype-stencil-vanilla
+- Based on Stencil prototype in Angular: https://github.com/insabelter/website-prototype-stencil-angular
+- *Based on Vue.js prototype: https://github.com/insabelter/website-prototype-vue*
